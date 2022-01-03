@@ -35,4 +35,11 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     example:
-      materialized: view
+      country_schemas:
+          EU:
+            +schema: EU
+            materialized: view
+          LATAM:
+            +schema: LATAM
+            materialized: view
+          
