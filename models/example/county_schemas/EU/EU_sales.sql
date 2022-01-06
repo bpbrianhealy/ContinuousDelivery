@@ -5,8 +5,8 @@
 ) }}
 
 with EU_SALES as (
-   select 'EU' as Country
-
+   select 'EU' as Country,
+          'South' as Region
 )
 
 select *
