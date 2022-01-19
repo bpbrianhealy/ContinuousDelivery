@@ -1,4 +1,6 @@
-
+{{ config(
+    schema='marketing'
+) }}
 /*
     Welcome to your first dbt model!
     Did you know that you can also configure models directly within SQL files?
