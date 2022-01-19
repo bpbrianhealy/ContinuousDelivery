@@ -1,12 +1,10 @@
-
-
 {{ config(
-    schema='EU'
+    schema='marketing'
 ) }}
 
 with EU_SALES as (
 
-   select 'EU' as Country
+   select 'EU' as Area
     , 'North' as Region
     , 'sweden' as Country_name
 )

@@ -37,9 +37,7 @@ models:
     example:
       country_schemas:
           EU:
-            +schema: EU
-            materialized: view
+             materialized: table
           LATAM:
-            +schema: LATAM
-            materialized: view
+             materialized: table
           
