@@ -1,1 +1,0 @@
-{{ codegen.generate_source('USR_BPBRIANHEALY', 'DGTL_SBX', generate_columns = 'True' ) }}
