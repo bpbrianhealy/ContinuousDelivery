@@ -1,0 +1,25 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: sdggrouppartner.us-east-1
+      user: BHEALY
+      password: Bh161767
+      role: SYSADMIN
+      database: DGTL_SBX
+      warehouse: DEMO_WH
+      schema: HUB
+      threads: 25 
+  target: test
+  outputs:
+    test:
+      type: snowflake
+      account: sdggrouppartner.us-east-1
+      user: BHEALY
+      password: Bh161767
+      role: SYSADMIN
+      database: DGTL_TST
+      warehouse: DEMO_WH
+      schema: HUB
+      threads: 25 
