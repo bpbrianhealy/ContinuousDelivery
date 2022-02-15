@@ -1,6 +1,11 @@
+
+
+{% if target.name == 'test' %}
 {{ config(
-    schema='marketing'
+    schema='marketing',
+    database= 'DGTL_TST'
 ) }}
+{% endif %}
 
 with EU_SALES as (
 
