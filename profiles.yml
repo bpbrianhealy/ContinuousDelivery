@@ -11,7 +11,6 @@ default:
       warehouse: DEMO_WH
       schema: HUB
       threads: 25 
-test:
   target: test
   outputs:
     test:
